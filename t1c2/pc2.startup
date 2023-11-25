@@ -1,0 +1,2 @@
+ip address add 5.0.0.2/24 dev eth0
+ip route add default via 5.0.0.5 dev eth0
