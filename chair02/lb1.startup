@@ -1,0 +1,6 @@
+ip address add 10.20.0.22/24 dev eth0
+ip address add 100.100.100.22/24 dev eth1
+ip route add 10.10.0.0/16 via 10.20.0.11 dev eth0
+
+iptables --table nat --append PREROUTING --destination 100.100.100.22 -p tcp --dport 80 --match statistic --mode random --probability 0.5 --jump DNAT --to-destination 10.10.0.1:80
+iptables --table nat --append PREROUTING --destination 100.100.100.22 -p tcp --dport 80 --jump DNAT --to-destination 10.10.0.2:80

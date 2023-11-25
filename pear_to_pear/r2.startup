@@ -1,0 +1,5 @@
+ip address add 50.1.2.2/24 dev eth0
+ip address add 100.2.0.2/16 dev eth1
+ip address add 50.2.88.2/24 dev eth2
+ip address add 50.2.20.2/24 dev eth3
+systemctl start frr
