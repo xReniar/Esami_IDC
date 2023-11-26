@@ -1,0 +1,2 @@
+ip address add 6.0.0.2/24 dev eth0
+ip route add default via 6.0.0.6 dev eth0
