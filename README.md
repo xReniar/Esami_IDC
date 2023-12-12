@@ -21,8 +21,17 @@
 - [t1c2](./t1c2/)
 - [t2c1](./t2c1/)
 # Terzo Esonero
+- [butterfly_bgp](./butterfly_bgp/) -> da fare
+- [cloth_cap](./cloth_cap/) -> da fare
 - [del_monte](./del_monte/)
+- [eta_beta](./eta_beta/) -> da fare
 - [eye](./eye)
+- [garden_umbrealla](./garden_umbrella/) -> da fare
 - [left_spotlight](./left_spotlight/)
+- [lift](./lift/) -> da fare
 - [right_spotlight](./right_spotlight/)
+- [pi](./pi/) -> da fare
+- [sandwich](./sandwich/) -> da fare
+- [sidecar](./sidecar/) -> da fare
+- [stairs](./stairs/) -> da fare
 - [trousers](./trousers/)
