@@ -1,7 +1,4 @@
 # Primo Esonero
-| Esonero | RIP | OSPF | SERVER |
-| :---: | :----: | :---: | :---: |
-| [butterfly](./butterfly/)  | si  | si  | no |
 - [butterfly](./butterfly/)
 - [chair01](./chair01/)
 - [chair02](./chair02/)
