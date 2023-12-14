@@ -21,7 +21,7 @@
 - [t1c2](./t1c2/)
 - [t2c1](./t2c1/)
 # Terzo Esonero
-- [butterfly_bgp](./butterfly_bgp/) -> da fare
+- [butterfly_bgp](./butterfly_bgp/) -> da FINIRE
 - [cloth_cap](./cloth_cap/) -> da fare
 - [crab](./crab/)
 - [del_monte](./del_monte/)
