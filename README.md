@@ -30,8 +30,5 @@
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/) -> da fare
 - [right_spotlight](./right_spotlight/)
-- [pi](./pi/) -> da fare
-- [sandwich](./sandwich/) -> da fare
-- [sidecar](./sidecar/) -> da fare
 - [stairs](./stairs/) -> da fare
 - [trousers](./trousers/)
