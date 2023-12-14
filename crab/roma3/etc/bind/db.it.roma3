@@ -1,0 +1,12 @@
+$TTL 60000
+@ IN SOA dns.roma3.it. root.dns.roma3.it. (
+    2023121401 ; serial
+    28800 ;  refresh
+    14400 ; retry
+    3600000 ; expire
+    0 ; negative cache ttl
+)
+
+@					IN		NS		dns.roma3.it.
+dns.roma3.it.		IN		A		30.0.0.3
+web.roma3.it.       IN      A       30.0.0.2
