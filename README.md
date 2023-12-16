@@ -33,4 +33,4 @@
 - [stairs](./stairs/) -> da fare
 - [trousers](./trousers/)
 # Esami
-- [tennis](./tennis/)
+- [tennis](./tennis/) (leggere il file NOTA.txt)
