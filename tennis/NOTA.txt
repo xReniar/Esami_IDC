@@ -1,1 +1,2 @@
-la traccia chiede di creare una pagina privata, io l'ho solamente resa pubblica :)
+(1) - la traccia chiede di creare una pagina privata, io l'ho solamente resa pubblica :)
+(2) - I router as2r1 e as20r4 hanno come indirizzo ip rispettivamente .1 e .2 perche la LAN è 2.20.4.0/30
