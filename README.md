@@ -28,7 +28,7 @@
 - [eye](./eye)
 - [garden_umbrella](./garden_umbrella/) -> da fare
 - [left_spotlight](./left_spotlight/)
-- [lift](./lift/) -> da fare
+- [lift](./lift/)
 - [right_spotlight](./right_spotlight/)
 - [stairs](./stairs/) -> da fare
 - [trousers](./trousers/)
