@@ -1,4 +1,5 @@
 # Primo Esonero
+```Argomenti: RIP, OSPF, WEB-SERVER```
 - [butterfly](./butterfly/)
 - [chair01](./chair01/)
 - [chair02](./chair02/)
@@ -10,6 +11,7 @@
 - [twin_pan_balance](./twin_pan_balance/)
 - [up_arrow](./up_arrow/)
 # Secondo Esonero
+```Argomenti: BGP + IGP```
 - [candy](./candy/)
 - [clouds](./clouds/)
 - [desconocida](./desconocida/)
@@ -21,6 +23,7 @@
 - [t1c2](./t1c2/)
 - [t2c1](./t2c1/)
 # Terzo Esonero
+```Argomenti: BGP + IGP, DNS```
 - [butterfly_bgp](./butterfly_bgp/)
 - [cloth_cap](./cloth_cap/) -> da fare
 - [crab](./crab/)
