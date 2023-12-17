@@ -26,7 +26,7 @@
 - [crab](./crab/)
 - [del_monte](./del_monte/)
 - [eye](./eye)
-- [garden_umbrella](./garden_umbrella/) -> da fare
+- [garden_umbrella](./garden_umbrella/)
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/)
 - [right_spotlight](./right_spotlight/)
