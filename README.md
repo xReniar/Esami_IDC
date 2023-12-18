@@ -33,7 +33,7 @@
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/)
 - [right_spotlight](./right_spotlight/)
-- [stairs](./stairs/) -> da fare
+- [stairs](./stairs/)
 - [trousers](./trousers/)
 # Esami
 - [tennis](./tennis/) (leggere il file NOTA.txt)
