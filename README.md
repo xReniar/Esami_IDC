@@ -32,6 +32,7 @@
 - [garden_umbrella](./garden_umbrella/)
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/)
+- [mirada](./mirada/)
 - [right_spotlight](./right_spotlight/)
 - [stairs](./stairs/)
 - [trousers](./trousers/)
