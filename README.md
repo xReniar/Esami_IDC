@@ -26,7 +26,7 @@
 # Terzo Esonero
 ```Argomenti: BGP + IGP, DNS```
 - [butterfly_bgp](./butterfly_bgp/)
-- [cloth_cap](./cloth_cap/) -> da FINIRE
+- [cloth_cap](./cloth_cap/) -> Non funzionante
 - [crab](./crab/)
 - [del_monte](./del_monte/)
 - [eye](./eye)
