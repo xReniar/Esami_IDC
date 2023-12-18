@@ -3,6 +3,7 @@
 - [butterfly](./butterfly/)
 - [chair01](./chair01/)
 - [chair02](./chair02/)
+- [falling asleep](./falling_asleep/)
 - [hour_glass](./hour_glass/)
 - [maracas](./maracas/)
 - [papillon](./papillon/)
