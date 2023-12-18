@@ -41,8 +41,8 @@
 - [tennis](./tennis/) (leggere il file NOTA.txt)
 
 | Primo Esonero  | [butterfly](./butterfly/), [chair01](./chair01/), [chair02](./chair02/), [falling_asleep](./falling_asleep/), [hour_glass](./hour_glass/), [maracas](./maracas/), [papillon](./papillon/), [street_light](./street_light/), [the_thing](./the_thing/), [twin_pan_balance](./twin_pan_balance/), [up_arrow](./up_arrow/) |
-| Primo Esonero  | [butterfly](./butterfly/), [chair01](./chair01/), [chair02](./chair02/), [falling_asleep](./falling_asleep/), [hour_glass](./hour_glass/), [maracas](./maracas/), [papillon](./papillon/), [street_light](./street_light/), [the_thing](./the_thing/), [twin_pan_balance](./twin_pan_balance/), [up_arrow](./up_arrow/) |
 |:---:|:---|
+| Primo Esonero  | [butterfly](./butterfly/), [chair01](./chair01/), [chair02](./chair02/), [falling_asleep](./falling_asleep/), [hour_glass](./hour_glass/), [maracas](./maracas/), [papillon](./papillon/), [street_light](./street_light/), [the_thing](./the_thing/), [twin_pan_balance](./twin_pan_balance/), [up_arrow](./up_arrow/) |
 | Secondo Esonero  | [candy](./candy/), [clouds](./clouds/), [desconocida](./desconocida/), [incognita](./incognita/), [pear_to_pear](./pear_to_pear/), [puzzle](./puzzle/), [red_baron](./red_baron/), [t1c1](./t1c1/), [t1c2](./t1c2/), [t2c1](./t2c1/) |
 | Terzo Esonero |  |
 | Esami |  |
