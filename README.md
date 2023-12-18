@@ -41,7 +41,7 @@
 - [tennis](./tennis/) (leggere il file NOTA.txt)
 
 | Primo Esonero  | [butterfly](./butterfly/),[chair01](./chair01/),[chair02](./chair02/),[falling asleep](./falling_asleep/),[hour_glass](./hour_glass/),[maracas](./maracas/),[papillon](./papillon/),[street_light](./street_light/),[the_thing](./the_thing/),[twin_pan_balance](./twin_pan_balance/),[up_arrow](./up_arrow/) |
-|---|---|
+|--- |--- |
 | Secondo Esonero  |  |
 | Terzo Esonero |  |
 | Esami |  |
