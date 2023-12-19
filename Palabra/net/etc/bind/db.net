@@ -1,0 +1,13 @@
+$TTL	60000
+@ IN SOA dns.net. root.dns.net. (
+	2023121801 ; serial
+	28800 ; refresh
+	14400 ; rety
+	360000 ; expire
+	0 ; negative cache ttl
+)
+
+@	    	IN	NS	dns.net.
+dns.net.	IN	 A	2.1.0.2
+
+pc.net.     IN	 A 	3.1.0.2
