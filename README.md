@@ -34,6 +34,7 @@
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/)
 - [mirada](./mirada/)
+- [palabra](./Palabra/)
 - [right_spotlight](./right_spotlight/)
 - [stairs](./stairs/)
 - [trousers](./trousers/)
