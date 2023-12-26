@@ -33,7 +33,7 @@
 - [left_spotlight](./left_spotlight/)
 - [lift](./lift/)
 - [mirada](./mirada/)
-- [palabra](./Palabra/)
+- [palabra](./palabra/)
 - [right_spotlight](./right_spotlight/)
 - [stairs](./stairs/)
 - [trousers](./trousers/)
