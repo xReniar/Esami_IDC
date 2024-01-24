@@ -37,5 +37,8 @@
 - [right_spotlight](./right_spotlight/)
 - [stairs](./stairs/)
 - [trousers](./trousers/)
+# Quarto Esonero
+```Argomenti: Data Center```
+- [exapus](./exapus/)
 # Esami
 - [tennis](./tennis/) (leggere il file NOTA.txt)
