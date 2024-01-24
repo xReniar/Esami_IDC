@@ -1,0 +1,49 @@
+# Create loopback
+ip addr add 192.168.0.2/32 dev lo
+ip route add 192.168.0.2/32 dev lo
+
+ip link add bond2 type bond miimon 100 mode active-backup
+ip link set down dev eth2
+ip link set dev eth2 master bond2
+ip link set up dev eth2
+ip link set up dev bond2
+
+
+
+# Setting up VXLAN interfaces
+ip link add vtep7100 type vxlan id 7100 dev lo dstport 4789 local 192.168.0.2 nolearning
+ip link add vtep7200 type vxlan id 7200 dev lo dstport 4789 local 192.168.0.2 nolearning
+ip link add vtep7300 type vxlan id 7300 dev lo dstport 4789 local 192.168.0.2 nolearning
+
+# Creating the companion bridge
+ip link add br100 type bridge
+ip link set br100 addrgenmode none
+
+# Attach interfaces to the bridge
+ip link set dev vtep7100 master br100 addrgenmode none
+ip link set vtep7100 type bridge_slave neigh_suppress on learning off
+ip link set dev vtep7200 master br100 addrgenmode none
+ip link set vtep7200 type bridge_slave neigh_suppress on learning off
+ip link set dev vtep7300 master br100 addrgenmode none
+ip link set vtep7300 type bridge_slave neigh_suppress on learning off
+ip link set dev bond2 master br100
+
+
+# Enable bridge VLANs
+ip link set dev br100 type bridge vlan_filtering 1
+bridge vlan add vid 100 dev vtep7100 pvid untagged
+bridge vlan add vid 200 dev vtep7200 pvid untagged
+bridge vlan add vid 300 dev vtep7300 pvid untagged
+
+bridge vlan add vid 100 dev bond2
+bridge vlan add vid 200 dev bond2
+bridge vlan add vid 300 dev bond2
+
+
+# Enable interfaces
+ip link set up dev vtep7100
+ip link set up dev vtep7200
+ip link set up dev vtep7300
+ip link set up dev br100
+
+systemctl start frr
