@@ -152,7 +152,21 @@
                 "0.0.0.0/0"
             ]
         },
-        "protocols": {},
+        "protocols": {
+            "ospfd": {
+                "injections": {
+                    "border": [
+                        "connected"
+                    ],
+                    "r1": [
+                        "connected"
+                    ],
+                    "r2": [
+                        "connected"
+                    ]
+                }
+            }
+        },
         "reachability": {
             "border": [
                 "1.0.0.1",
