@@ -1,0 +1,350 @@
+{
+	"labs_path": "../exapus",
+    "convergence_time": 60,
+    "structure": "../exapus/lab.conf",
+    "default_image": "kathara/frr",
+	"test": {
+		"requiring_startup": [
+			"spine1",
+			"spine2",
+			"leaf1",
+			"leaf2",
+			"s1",
+			"s2",
+			"s3",
+			"c_1_1",
+			"c_1_2",
+			"c_2_1",
+			"c_3_1",
+			"c_1_3",
+			"c_2_2"
+		],
+		"ipv6_enabled": [
+			"spine1",
+			"spine2",
+			"leaf1",
+			"leaf2"
+		],
+		"sysctls": {
+			"spine1": [
+				"net.ipv4.fib_multipath_hash_policy=1"
+			],
+			"spine2": [
+				"net.ipv4.fib_multipath_hash_policy=1"
+			],
+			"leaf1": [
+				"net.ipv4.fib_multipath_hash_policy=1"
+			],
+			"leaf2": [
+				"net.ipv4.fib_multipath_hash_policy=1"
+			]
+		},
+		"ip_mapping": {
+			"leaf1": {
+				"lo": "192.168.0.1/32"
+			},
+			"leaf2": {
+				"lo": "192.168.0.2/32"
+			},
+			"c_1_1": {
+				"eth0": "100.0.0.1/24"
+			},
+			"c_1_2": {
+				"eth0": "100.0.0.2/24"
+			},
+			"c_1_3": {
+				"eth0": "100.0.0.3/24"
+			},
+			"c_2_1": {
+				"eth0": "200.0.0.1/24"
+			},
+			"c_2_2": {
+				"eth0": "200.0.0.2/24"
+			},
+			"c_3_1": {
+				"eth0": "250.0.0.1/24"
+			}
+		},
+		"daemons": {
+			"spine1": [
+				"bgpd"
+			],
+			"spine2": [
+				"bgpd"
+			],
+			"leaf1": [
+				"bgpd"
+			],
+			"leaf2": [
+				"bgpd"
+			],
+			"c_1_1": [
+				"apache2"
+			],
+			"c_1_2": [
+				"apache2"
+			],
+			"c_1_3": [
+				"apache2"
+			],
+			"c_2_1": [
+				"apache2"
+			],
+			"c_2_2": [
+				"apache2"
+			],
+			"c_3_1": [
+				"apache2"
+			],
+			"s1": [
+				"!watchfrr"
+			],
+			"s2": [
+				"!watchfrr"
+			],
+			"s3": [
+				"!watchfrr"
+			]
+		},
+		"kernel_routes": {
+			"spine1": [
+				"192.168.0.1",
+				"192.168.0.2"
+			],
+			"spine2": [
+				"192.168.0.1",
+				"192.168.0.2"
+			],
+			"leaf1": [
+				[
+					"192.168.0.2",
+					[
+						"eth0",
+						"eth1"
+					]
+				],
+				"192.168.0.1"
+			],
+			"leaf2": [
+				[
+					"192.168.0.1",
+					[
+						"eth0",
+						"eth1"
+					]
+				],
+				"192.168.0.2"
+			]
+		},
+		"protocols": {
+			"bgpd": {
+				"peerings": {
+					"spine1": [
+						"eth0",
+						"eth1"
+					],
+					"spine2": [
+						"eth0",
+						"eth1"
+					],
+					"leaf1": [
+						"eth0",
+						"eth1"
+					],
+					"leaf2": [
+						"eth0",
+						"eth1"
+					]
+				},
+				"injections": {
+					"spine1": [
+						"!connected"
+					],
+					"spine2": [
+						"!connected"
+					],
+					"leaf1": [
+						"!connected"
+					],
+					"leaf2": [
+						"!connected"
+					]
+				},
+				"evpn": {
+					"evpn_sessions": {
+						"spine1": [
+							"eth0",
+							"eth1"
+						],
+						"spine2": [
+							"eth0",
+							"eth1"
+						],
+						"leaf1": [
+							"eth0",
+							"eth1"
+						],
+						"leaf2": [
+							"eth0",
+							"eth1"
+						]
+					},
+					"vtep_devices": {
+						"leaf1": {
+							"ip": "192.168.0.1",
+							"vnis": [
+								"7100",
+								"7200",
+								"7300"
+							]
+						},
+						"leaf2": {
+							"ip": "192.168.0.2",
+							"vnis": [
+								"7100",
+								"7200"
+							]
+						}
+					}
+				}
+			}
+		},
+		"reachability": {
+			"c_1_1": [
+				"100.0.0.2",
+				"100.0.0.3"
+			],
+			"c_1_2": [
+				"100.0.0.3",
+				"100.0.0.1"
+			],
+			"c_1_3": [
+				"100.0.0.1",
+				"100.0.0.2"
+			],
+			"c_2_1": [
+				"200.0.0.2"
+			],
+			"c_2_2": [
+				"200.0.0.1"
+			],
+			"leaf1": [
+				"192.168.0.2"
+			],
+			"leaf2": [
+				"192.168.0.1"
+			]
+		},
+		"bridges": {
+			"leaf1": [
+				{
+					"interfaces": {
+						"eth2": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						},
+						"eth3": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						}
+					},
+					"vxlan": {
+						"7100": {
+							"pvid": 100
+						},
+						"7200": {
+							"pvid": 200
+						},
+						"7300": {
+							"pvid": 300
+						}
+					}
+				}
+			],
+			"leaf2": [
+				{
+					"interfaces": {
+						"eth2": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						}
+					},
+					"vxlan": {
+						"7100": {
+							"pvid": 100
+						},
+						"7200": {
+							"pvid": 200
+						},
+						"7300": {
+							"pvid": 300
+						}
+					}
+				}
+			],
+			"s1": [
+				{
+					"interfaces": {
+						"eth0": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						},
+						"eth1": {
+							"pvid": 200
+						},
+						"eth2": {
+							"pvid": 100
+						}
+					}
+				}
+			],
+			"s2": [
+				{
+					"interfaces": {
+						"eth0": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						},
+						"eth1": {
+							"pvid": 300
+						}
+					}
+				}
+			],
+			"s3": [
+				{
+					"interfaces": {
+						"eth0": {
+							"vlan_tags": [
+								100,
+								200,
+								300
+							]
+						},
+						"eth1": {
+							"pvid": 200
+						},
+						"eth2": {
+							"pvid": 100
+						}
+					}
+				}
+			]
+		}
+	}
+}
