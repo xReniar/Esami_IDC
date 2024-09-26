@@ -1,0 +1,26 @@
+# Create loopback
+ip addr add 10.0.0.9/32 dev lo
+ip route add 10.0.0.9/32 dev lo
+
+# Setting up VXLAN interfaces
+ip link add vtep1 type vxlan id 1 dev lo dstport 4789 local 10.0.0.9 nolearning
+
+# Creating the companion bridge
+ip link add br1 type bridge
+ip link set br1 addrgenmode none
+
+# Attach interfaces to the bridge
+ip link set dev vtep1 master br1 addrgenmode none
+ip link set vtep1 type bridge_slave neigh_suppress on learning off
+ip link set dev eth1 master br1
+
+# Enable bridge VLANs
+ip link set dev br1 type bridge vlan_filtering 1
+bridge vlan add vid 1 dev vtep1 pvid untagged
+bridge vlan add vid 1 dev eth1
+
+# Enable interfaces
+ip link set up dev vtep1
+ip link set up dev br1
+
+systemctl start frr

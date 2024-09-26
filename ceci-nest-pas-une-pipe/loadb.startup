@@ -1,0 +1,22 @@
+# Creating the bridge
+ip link add br1 type bridge
+# Attach interfaces to the bridge
+ip link set dev eth1 master br1
+#ip link set dev eth0 master br1
+# Enable bridge vlans
+ip link set dev br1 type bridge vlan_filtering 1
+bridge vlan add vid 1 dev eth1
+#bridge vlan add vid 1 dev eth0 pvid untagged
+
+ip link set up dev br1
+
+
+ip a add 9.9.9.9/24 dev eth0
+ip a add 192.168.10.1/24 dev br1
+ip route add default via 9.9.9.1
+ip link set dev eth1 mtu 1450
+
+
+iptables-legacy --table nat --append PREROUTING --destination 9.9.9.9 -p tcp --dport 80 --match statistic --mode random --probability 0.5 --jump DNAT --to-destination 192.168.10.2:80
+iptables-legacy --table nat --append PREROUTING --destination 9.9.9.9 -p tcp --dport 80  --jump DNAT --to-destination 192.168.10.3:80
+iptables-legacy --table nat --append POSTROUTING -o eth0 --jump MASQUERADE
