@@ -40,6 +40,7 @@
 # Quarto Esonero
 ```Argomenti: Data Center```
 - [exapus](./exapus/)
+- [ceci-nest-pas-une-pipe](./ceci-nest-pas-une-pipe/)
 # Esami
 - [patchwork](./patchwork/)
 - [tennis](./tennis/) (leggere il file NOTA.txt)
