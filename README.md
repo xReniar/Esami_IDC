@@ -1,8 +1,8 @@
 # Primo Esonero
 ```Argomenti: RIP, OSPF, WEB-SERVER```
 - [butterfly](./butterfly/)
-- [chair01](./chair01/) (WEB-SERVER only)
-- [chair02](./chair02/) (WEB-SERVER only)
+- [chair01](./chair01/) `(WEB-SERVER only)`
+- [chair02](./chair02/) `(WEB-SERVER only)`
 - [falling asleep](./falling_asleep/)
 - [maracas](./maracas/)
 - [puzzle](./puzzle/)
@@ -26,7 +26,7 @@
 # Terzo Esonero
 ```Argomenti: BGP + IGP, DNS```
 - [butterfly_bgp](./butterfly_bgp/)
-- [crab](./crab/) (DNS only)
+- [crab](./crab/) `(DNS only)`
 - [del_monte](./del_monte/)
 - [eye](./eye)
 - [garden_umbrella](./garden_umbrella/)
