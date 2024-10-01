@@ -79,22 +79,28 @@
 				"bgpd"
 			],
 			"c_1_1": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"c_1_2": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"c_1_3": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"c_2_1": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"c_2_2": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"c_3_1": [
-				"apache2"
+				"apache2",
+				"!watchfrr"
 			],
 			"s1": [
 				"!watchfrr"
