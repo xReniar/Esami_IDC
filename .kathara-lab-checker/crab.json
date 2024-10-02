@@ -172,10 +172,12 @@
 						"client"
 					]
 				},
-				"reachability": {
+				"records": {
+					"A": {
 					"web.roma3.it": [
-						"client"
+							"30.0.0.2"
 					]
+					}
 				}
 			}
 		},
