@@ -1,7 +1,6 @@
 {
-    "labs_path": "../clouds",
     "convergence_time": 100,
-    "structure": "../clouds/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [
@@ -161,27 +160,29 @@
         },
         "protocols": {
             "ospfd": {
-                "r12": [
-                    "connected"
-                ],
-                "r11": [
-                    "connected"
-                ],
-                "r21": [
-                    "connected"
-                ],
-                "r31": [
-                    "connected"
-                ],
-                "b012": [
-                    "connected"
-                ],
-                "b02": [
-                    "connected"
-                ],
-                "b03": [
-                    "connected"
-                ]
+                "injections": {
+                    "r12": [
+                        "!connected"
+                    ],
+                    "r11": [
+                        "!connected"
+                    ],
+                    "r21": [
+                        "!connected"
+                    ],
+                    "r31": [
+                        "!connected"
+                    ],
+                    "b012": [
+                        "!connected"
+                    ],
+                    "b02": [
+                        "!connected"
+                    ],
+                    "b03": [
+                        "!connected"
+                    ]
+                }
             }
         },
         "reachability": {
@@ -306,6 +307,26 @@
                 "120.20.2.20",
                 "120.20.3.2",
                 "130.30.1.30"
+            ]
+        },
+        "custom_commands": {
+            "b012": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth0'",
+                    "regex_match": "Cost: 80"
+                }
+            ],
+            "b02": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth3'",
+                    "regex_match": "Cost: 80"
+                }
+            ],
+            "b03": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth0'",
+                    "regex_match": "Cost: 80"
+                }
             ]
         }
     }
