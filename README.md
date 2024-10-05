@@ -34,7 +34,7 @@
 - [lift](./2013-12-20-lift/solution/)
 - [mirada](./2023-12-18-mirada/solution/)
 - [palabra](./2023-12-18-palabra/solution/)
-- [right_spotlight](./2015-12-11-right_spotlight/solution/)
+- [right-spotlight](./2015-12-11-right_spotlight/solution/)
 - [stairs](./2018-01-17-stairs/solution/)
 - [trousers](./2015-12-11-trousers/solution/)
 # Quarto Esonero
