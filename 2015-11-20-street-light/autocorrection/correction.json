@@ -1,7 +1,6 @@
 {
-    "labs_path": "../street_light",
     "convergence_time": 80,
-    "structure": "../street_light/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

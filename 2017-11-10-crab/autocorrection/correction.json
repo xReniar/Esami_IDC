@@ -1,7 +1,6 @@
 {
-	"labs_path": "../crab",
 	"convergence_time": 5,
-	"structure": "../crab/lab.conf",
+	"structure": "./autocorrection/structure",
 	"default_image": "kathara/frr",
 	"test": {
 		"requiring_startup": [

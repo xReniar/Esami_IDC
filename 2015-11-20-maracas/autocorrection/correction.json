@@ -1,7 +1,6 @@
 {
-    "labs_path": "../maracas",
     "convergence_time": 60,
-    "structure": "../maracas/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [
@@ -150,6 +149,13 @@
                         "connected"
                     ]
                 }
+            },
+            "ripd": {
+                "injections": {
+                    "br": [
+                        "ospfd"
+                    ]
+                }
             }
         },
         "reachability": {
@@ -280,6 +286,14 @@
                 "11.0.0.2",
                 "11.1.0.1",
                 "11.1.0.2"
+            ]
+        },
+        "custom_commands": {
+            "host": [
+                {
+                    "command": "wget -S http://2.0.0.2 -q -O /dev/null",
+                    "regex_match": "HTTP/1.1 200 OK"
+                }
             ]
         }
     }

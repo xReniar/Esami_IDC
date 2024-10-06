@@ -1,7 +1,6 @@
 {
-    "labs_path": "../garden_umbrella",
     "convergence_time": 60,
-    "structure": "../garden_umbrella/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

@@ -1,7 +1,6 @@
 {
-    "labs_path": "../chair02",
     "convergence_time": 5,
-    "structure": "../chair02/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

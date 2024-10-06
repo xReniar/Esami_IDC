@@ -1,7 +1,6 @@
 {
-    "labs_path": "../del_monte",
     "convergence_time": 60,
-    "structure": "../del_monte/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

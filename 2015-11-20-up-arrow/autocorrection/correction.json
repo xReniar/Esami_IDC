@@ -1,7 +1,6 @@
 {
-    "labs_path": "../up_arrow",
     "convergence_time": 60,
-    "structure": "../up_arrow/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

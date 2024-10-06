@@ -1,7 +1,6 @@
 {
-    "labs_path": "../papillon",
     "convergence_time": 60,
-    "structure": "../papillon/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

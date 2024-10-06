@@ -1,7 +1,6 @@
 {
-    "labs_path": "../lift",
     "convergence_time": 60,
-    "structure": "../lift/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

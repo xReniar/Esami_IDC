@@ -1,7 +1,6 @@
 {
-    "labs_path": "../desconocida",
     "convergence_time": 60,
-    "structure": "../desconocida/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

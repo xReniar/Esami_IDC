@@ -1,7 +1,6 @@
 {
-    "labs_path": "../palabra",
 	"convergence_time": 60,
-	"structure": "../palabra/palabra.conf",
+	"structure": "./autocorrection/structure",
 	"default_image": "kathara/frr",
 	"test": {
 		"requiring_startup": [

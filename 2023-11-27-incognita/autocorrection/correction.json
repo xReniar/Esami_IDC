@@ -1,7 +1,6 @@
 {
-    "labs_path": "../incognita",
     "convergence_time": 60,
-    "structure": "../incognita/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

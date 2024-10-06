@@ -1,7 +1,6 @@
 {
-    "labs_path": "../hour_glass",
     "convergence_time": 60,
-    "structure": "../hour_glass/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

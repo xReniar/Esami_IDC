@@ -1,7 +1,6 @@
 {
-    "labs_path": "../twin_pan_balance",
     "convergence_time": 60,
-    "structure": "../twin_pan_balance/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

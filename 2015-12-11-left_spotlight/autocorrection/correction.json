@@ -1,7 +1,6 @@
 {
-    "labs_path": "../left_spotlight",
     "convergence_time": 60,
-    "structure": "../left_spotlight/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [

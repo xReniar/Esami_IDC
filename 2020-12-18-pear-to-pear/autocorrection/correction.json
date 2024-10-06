@@ -1,7 +1,6 @@
 {
-    "labs_path": "../pear_to_pear",
     "convergence_time": 60,
-    "structure": "../pear_to_pear/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [
