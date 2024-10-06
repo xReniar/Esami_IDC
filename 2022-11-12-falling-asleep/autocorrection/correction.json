@@ -1,7 +1,6 @@
 {
-    "labs_path": "../falling_asleep",
     "convergence_time": 60,
-    "structure": "../falling_asleep/lab.conf",
+    "structure": "./autocorrection/structure",
     "default_image": "kathara/frr",
     "test": {
         "requiring_startup": [
@@ -408,6 +407,14 @@
                 "20.0.0.26",
                 "20.0.1.2",
                 "20.0.1.6"
+            ]
+        },
+        "custom_commands": {
+            "pc": [
+                {
+                    "command": "wget -S http://1.1.0.1 -q -O /dev/null",
+                    "regex_match": "HTTP/1.1 200 OK"
+                }
             ]
         }
     }
