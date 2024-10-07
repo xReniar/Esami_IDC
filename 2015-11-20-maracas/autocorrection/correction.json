@@ -137,13 +137,13 @@
             "ospfd": {
                 "injections": {
                     "br": [
-                        "connected"
+                        "!connected"
                     ],
                     "ospf1": [
-                        "connected"
+                        "!connected"
                     ],
                     "ospf2": [
-                        "connected"
+                        "!connected"
                     ],
                     "ospf3": [
                         "connected"
@@ -293,6 +293,18 @@
                 {
                     "command": "wget -S http://2.0.0.2 -q -O /dev/null",
                     "regex_match": "HTTP/1.1 200 OK"
+                }
+            ],
+            "ospf1": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth0'",
+                    "regex_match": "Cost: 90"
+                }
+            ],
+            "ospf3": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth2'",
+                    "regex_match": "Cost: 90"
                 }
             ]
         }
