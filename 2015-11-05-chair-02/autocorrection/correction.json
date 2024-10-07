@@ -74,6 +74,14 @@
                 "10.10.0.1",
                 "10.10.0.11"
             ]
+        },
+        "custom_commands": {
+            "client": [
+                {
+                    "command": "wget -S http://100.100.100.22 -q -O /dev/null",
+                    "regex_match": "HTTP/1.1 200 OK"
+                }
+            ]
         }
     }
 }
