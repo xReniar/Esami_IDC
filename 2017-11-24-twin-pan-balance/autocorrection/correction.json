@@ -149,18 +149,20 @@
         },
         "protocols": {
             "ospfd": {
-                "r1": [
-                    "connected"
-                ],
-                "r2": [
-                    "connected"
-                ],
-                "r3": [
-                    "connected"
-                ],
-                "r4": [
-                    "connected"
-                ]
+                "injections": {
+                    "r1": [
+                        "connected"
+                    ],
+                    "r2": [
+                        "connected"
+                    ],
+                    "r3": [
+                        "connected"
+                    ],
+                    "r4": [
+                        "connected"
+                    ]
+                }
             }
         },
         "reachability": {
