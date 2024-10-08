@@ -4,7 +4,7 @@
 - [chair-01](./2015-11-05-chair-01/solution/lab/) `(WEB-SERVER only)`
 - [chair-02](./2015-11-05-chair-02/solution/lab/) `(WEB-SERVER only)`
 - [falling-asleep](./2022-11-12-falling-asleep/solution/lab/) ✅
-- [maracas](./2015-11-20-maracas/solution/lab/)
+- [maracas](./2015-11-20-maracas/solution/lab/)✅
 - [puzzle](./2020-11-27-puzzle/solution/lab/)
 - [street-light](./2015-11-20-street-light/solution/lab/)
 - [the-thing](./2020-11-27-the-thing/solution/lab/)
