@@ -163,6 +163,22 @@
                         "connected"
                     ]
                 }
+            },
+            "ripd": {
+                "injections": {
+                    "r5": [
+                        "!connected"
+                    ],
+                    "r6": [
+                        "connected"
+                    ],
+                    "r7": [
+                        "!connected"
+                    ],
+                    "r8": [
+                        "!connected"
+                    ]
+                }
             }
         },
         "reachability": {
