@@ -381,6 +381,20 @@
 				"30.0.3.1",
 				"30.0.4.1"
 			]
+		},
+		"custom_commands": {
+			"r7": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth0'",
+                    "regex_match": "Cost: 100"
+                }
+            ],
+            "r8": [
+                {
+                    "command": "vtysh -c 'sh ip ospf interface eth0'",
+                    "regex_match": "Cost: 100"
+                }
+            ]
 		}
 	}
 }
