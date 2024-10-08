@@ -1,9 +1,0 @@
-into br do this:
-vtysh
-configure
-router rip
-route 1.0.0.0/24
-route 10.0.0.0/8
-quit
-quit
-exit
