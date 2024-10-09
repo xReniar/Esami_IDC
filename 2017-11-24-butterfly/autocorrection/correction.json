@@ -199,13 +199,13 @@
 						"connected"
 					],
 					"r6": [
-						"connected"
+						"!connected"
 					],
 					"r7": [
-						"connected"
+						"!connected"
 					],
 					"r8": [
-						"connected"
+						"!connected"
 					]
 				}
 			},
@@ -400,17 +400,17 @@
 		},
 		"custom_commands": {
 			"r7": [
-                {
-                    "command": "vtysh -c 'sh ip ospf interface eth0'",
-                    "regex_match": "Cost: 100"
-                }
-            ],
-            "r8": [
-                {
-                    "command": "vtysh -c 'sh ip ospf interface eth0'",
-                    "regex_match": "Cost: 100"
-                }
-            ]
+				{
+					"command": "vtysh -c 'sh ip ospf interface eth0'",
+					"regex_match": "Cost: 100"
+				}
+			],
+			"r8": [
+				{
+					"command": "vtysh -c 'sh ip ospf interface eth0'",
+					"regex_match": "Cost: 100"
+				}
+			]
 		}
 	}
 }
