@@ -1,14 +1,14 @@
 # Primo Esonero
 ```Argomenti: RIP, OSPF, WEB-SERVER```
-- [butterfly](./2017-11-24-butterfly/solution/lab/)
-- [chair-01](./2015-11-05-chair-01/solution/lab/) `(WEB-SERVER only)`
-- [chair-02](./2015-11-05-chair-02/solution/lab/) `(WEB-SERVER only)`
-- [falling-asleep](./2022-11-12-falling-asleep/solution/lab/) ✅
+- [butterfly](./2017-11-24-butterfly/solution/lab/)✅
+- [chair-01](./2015-11-05-chair-01/solution/lab/) `(WEB-SERVER only)`✅
+- [chair-02](./2015-11-05-chair-02/solution/lab/) `(WEB-SERVER only)`✅
+- [falling-asleep](./2022-11-12-falling-asleep/solution/lab/)✅
 - [maracas](./2015-11-20-maracas/solution/lab/)✅
-- [puzzle](./2020-11-27-puzzle/solution/lab/)
+- [puzzle](./2020-11-27-puzzle/solution/lab/)✅
 - [street-light](./2015-11-20-street-light/solution/lab/)
-- [the-thing](./2020-11-27-the-thing/solution/lab/)
-- [twin-pan-balance](./2017-11-24-twin-pan-balance/solution/lab/)
+- [the-thing](./2020-11-27-the-thing/solution/lab/)✅
+- [twin-pan-balance](./2017-11-24-twin-pan-balance/solution/lab/)✅
 - [up-arrow](./2015-11-20-up-arrow/solution/lab/)
 # Secondo Esonero
 ```Argomenti: BGP + IGP```
