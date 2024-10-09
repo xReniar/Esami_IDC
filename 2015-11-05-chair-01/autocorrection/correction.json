@@ -99,6 +99,16 @@
                     "command": "wget -S http://50.50.50.11 -q -O /dev/null",
                     "regex_match": "HTTP/1.1 200 OK"
                 }
+            ],
+            "lb1": [
+                {
+                    "command": "wget -S http://10.0.0.1 -q -O /dev/null",
+                    "regex_match": "HTTP/1.1 200 OK"
+                },
+                {
+                    "command": "wget -S http://10.0.0.2 -q -O /dev/null",
+                    "regex_match": "HTTP/1.1 200 OK"
+                }
             ]
         }
     }
