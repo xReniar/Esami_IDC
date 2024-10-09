@@ -196,7 +196,8 @@
 			"ospfd": {
 				"injections": {
 					"r5": [
-						"connected"
+						"connected",
+						"kernel"
 					],
 					"r6": [
 						"!connected"
