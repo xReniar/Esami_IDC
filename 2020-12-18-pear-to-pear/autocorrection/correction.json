@@ -86,8 +86,43 @@
                 "!ospfd"
             ]
         },
-        "kernel_routes": {},
-        "protocols": {},
+        "kernel_routes": {
+            "r1": [
+
+            ],
+            "r10": [
+
+            ],
+            "r100": [
+
+            ],
+            "r2": [
+
+            ],
+            "r20": [
+
+            ],
+            "b03": [
+
+            ],
+            "r200": [
+
+            ]
+
+        },
+        "protocols": {
+            "bgpd": {
+                "peerings": {
+
+                },
+                "networks": {
+
+                },
+                "injections": {
+
+                }
+            }
+        },
         "reachability": {
             "b03": [
                 "50.1.2.1",
