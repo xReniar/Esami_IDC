@@ -82,7 +82,8 @@
 				"!ospfd"
 			],
 			"server": [
-				"!watchfrr"
+				"!watchfrr",
+				"apache2"
 			]
 		},
 		"kernel_routes": {

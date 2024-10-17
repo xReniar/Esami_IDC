@@ -1,19 +1,19 @@
 # Primo Esonero
 ```Argomenti: RIP, OSPF, WEB-SERVER```
-- [chair-01](./2015-11-05-chair-01/solution/lab/) `(WEB-SERVER only)`✅
-- [chair-02](./2015-11-05-chair-02/solution/lab/) `(WEB-SERVER only)`✅
-- [maracas](./2015-11-20-maracas/solution/lab/)✅
+- [chair-01](./2015-11-05-chair-01/solution/lab/)  => add loadbalander check
+- [chair-02](./2015-11-05-chair-02/solution/lab/)  => add loadbalander check
+- [maracas](./2015-11-20-maracas/solution/lab/)✅ => added service apache2
 - [up-arrow](./2015-11-20-up-arrow/solution/lab/)
-- [street-light](./2015-11-20-street-light/solution/lab/)
+- [street-light](./2015-11-20-street-light/solution/lab/) => il lab è rotto, non vanno i ping
 - [butterfly](./2017-11-24-butterfly/solution/lab/)✅
 - [twin-pan-balance](./2017-11-24-twin-pan-balance/solution/lab/)✅
 - [puzzle](./2020-11-27-puzzle/solution/lab/)✅
 - [the-thing](./2020-11-27-the-thing/solution/lab/)✅
-- [falling-asleep](./2022-11-12-falling-asleep/solution/lab/)✅
+- [falling-asleep](./2022-11-12-falling-asleep/solution/lab/) => missing PDF, added service apache2
 # Secondo Esonero
 ```Argomenti: BGP + IGP```
-- [hour-glass](./2016-12-16-hour-glass/solution/lab/)
-- [papillon](./2016-12-16-papillon/solution/lab/)
+- [hour-glass](./2016-12-16-hour-glass/solution/lab/) =>
+- [papillon](./2016-12-16-papillon/solution/lab/) => OK
 - [candy](./2017-12-15-candy/solution/lab/)
 - [pear-to-pear](./2020-12-18-pear-to-pear/solution/lab/)
 - [red-baron](./2020-12-18-red-baron/solution/lab/)
