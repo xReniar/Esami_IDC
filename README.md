@@ -12,7 +12,7 @@
 - [falling-asleep](./2022-11-12-falling-asleep/solution/lab/) => missing PDF, added service apache2
 # Secondo Esonero
 ```Argomenti: BGP + IGP```
-- [hour-glass](./2016-12-16-hour-glass/solution/lab/) =>
+- [hour-glass](./2016-12-16-hour-glass/solution/lab/) => OK
 - [papillon](./2016-12-16-papillon/solution/lab/) => OK
 - [candy](./2017-12-15-candy/solution/lab/)
 - [pear-to-pear](./2020-12-18-pear-to-pear/solution/lab/)
