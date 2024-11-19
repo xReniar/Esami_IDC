@@ -25,7 +25,6 @@
 - [incognita](./2023-11-27-incognita/solution/lab/)
 # Terzo Esonero
 ```Argomenti: BGP + IGP, DNS```
-- [butterfly](./2013-12-20-butterfly-bgp/solution/lab/)✅
 - [lift](./2013-12-20-lift/solution/lab/)
 - [garden-umbrella](./2013-12-20-garden-umbrella/solution/lab/)✅
 - [eye](./2015-12-11-eye/solution/lab/)
