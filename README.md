@@ -42,4 +42,4 @@
 - [exapus](./2024-01-15-exapus/solution/lab/)
 # Esami
 - [tennis](./2016-07-01-tennis/solution/lab/) (leggere il file NOTA.txt)
-- [patchwork](./2024-01-15-exapus/solution/lab/)
+- [patchwork](./2024-01-22-patchwork/solution/lab/)
